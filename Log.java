@@ -1,4 +1,4 @@
-public class log {
+public class Log {
 	public static void main(String args[]) {
 		System.out.printf("log 2 = %.4f\n",Math.log10(2));
 		System.out.printf("log 3 = %.4f\n",Math.log10(3));
