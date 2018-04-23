@@ -29,7 +29,9 @@ public class IndexFromTo {
 	}
 }
 
-/*Outputs:
+/*
+Outputs:
+
 s1 = abcdefghij
 s1.length() = 10
 -----------------------------
@@ -43,5 +45,4 @@ Arrays.fill(arr, 2, 5, 0):
 fill arr with 0 from index 2 to 5
 
 arr = 1 2 0 0 0 6 7 8 9 10 
-
 */
