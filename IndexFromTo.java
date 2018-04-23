@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class IndexFromTo {
 	public static void main(String args[]) {
 		String s1 = "abcdefghij";
@@ -41,5 +43,5 @@ Arrays.fill(arr, 2, 5, 0):
 fill arr with 0 from index 2 to 5
 
 arr = 1 2 0 0 0 6 7 8 9 10 
-import java.util.Arrays;
+
 */
