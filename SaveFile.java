@@ -2,7 +2,7 @@ import java.io.*;
 
 public class SaveFile {
 	public static void main(String args[]) {
-		File saveFile=new File("output.txt");
+		File saveFile = new File("output.txt");
 	    try {
 	      FileWriter fwriter = new FileWriter(saveFile);
 	      fwriter.write("Taiwan NO.1 !\n");
