@@ -40,7 +40,6 @@ public class PrimeFactorization {
 /*
 Output:
 ----
-
 PrimeFactorization of 72:
 [2, 2, 2, 3, 3]
 [8, 9]
