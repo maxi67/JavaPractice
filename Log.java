@@ -15,3 +15,21 @@ public class Log {
 		System.out.printf("log (16) 16 = %d\n", (int)(Math.log(16)/Math.log(16)));
 	}
 }
+
+/*
+Output:
+----
+log 2 = 0.3010
+log 3 = 0.4771
+log 4 = 0.6021
+log 5 = 0.6990
+log 6 = 0.7782
+log 7 = 0.8451
+log 8 = 0.9031
+log 9 = 0.9542
+============
+log ( 2)  4 = 2
+log ( 2)  8 = 3
+log ( 2) 16 = 4
+log (16) 16 = 1
+*/
