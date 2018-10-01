@@ -32,7 +32,16 @@ public class PrimeFactorization {
 	
 	public static void main(String args[]) {
 		int N = 72;
+		System.out.println("PrimeFactorization of 72:");
 		showList(N);
 		showMaxList(N);
 	}
 }
+/*
+Output:
+----
+
+PrimeFactorization of 72:
+[2, 2, 2, 3, 3]
+[8, 9]
+*/
