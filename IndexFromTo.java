@@ -28,10 +28,8 @@ public class IndexFromTo {
 		System.out.println("\n");
 	}
 }
-
 /*
-Outputs:
-
+Output:
 s1 = abcdefghij
 s1.length() = 10
 -----------------------------
