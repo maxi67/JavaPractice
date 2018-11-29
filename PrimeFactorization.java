@@ -6,17 +6,17 @@ public class PrimeFactorization {
 		Queue<Integer> pf = new ArrayDeque<Integer>();
 		
 		int n = N;
-			double sq = Math.sqrt(N+0.5);
-			for (int i = 2; i <= sq; i++) {
-				while (n % i == 0 && n > 1) {
-					pf.add(i);
-					n /= i;
-				}
+		double sq = Math.sqrt(N+0.5);
+		for (int i = 2; i <= sq; i++) {
+			while (n % i == 0 && n > 1) {
+				pf.add(i);
+				n /= i;
 			}
-			if (pf.isEmpty())
-				pf.add(1);
-			if (n > 1)
-				pf.add(n);
+		}
+		if (pf.isEmpty())
+			pf.add(1);
+		if (n > 1)
+			pf.add(n);
 		
 		System.out.println(pf);
 	}
